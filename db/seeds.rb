@@ -1,3 +1,5 @@
+puts 'Weeding to prep for planting...'
+Plant.delete_all
 puts '🌱 Seeding plants...'
 
 Plant.create!([
